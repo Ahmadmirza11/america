@@ -6,14 +6,12 @@ import Image from "next/image";
 import pic2 from "../../public/Frame1.png";
 import pic3 from "../../public/Frame2.png";
 import pic4 from "../../public/Frame3.png";
-import frame from "../../public/Frame20.png"
-import frame22 from "../../public/Frame22.png"
-import screen from "../../public/screen11.png"
-import pic11 from "../../public/contant1.png"
-
+import frame from "../../public/Frame20.png";
+import frame22 from "../../public/Frame22.png";
+import screen from "../../public/screen11.png";
+import pic11 from "../../public/contant1.png";
 
 const page = () => {
-  
   return (
     <div>
       <div>
@@ -21,7 +19,7 @@ const page = () => {
       </div>
 
       <div className={styles.center}>
-  <Image className={styles.first} src={screen} alt=""></Image>
+        <Image className={styles.first} src={screen} alt=""></Image>
       </div>
 
       <div className={styles.features}>
@@ -107,90 +105,73 @@ const page = () => {
           </p>
         </div>
 
-
-       
-<div className={styles.wrap}>
-
-        <div className={styles.box}>
-          <div className={styles.center1}>
-            <Image className={styles.size} src={frame} alt=""></Image>
-
+        <div className={styles.wrap}>
+          <div className={styles.box}>
+            <div className={styles.center1}>
+              <Image className={styles.size} src={frame} alt=""></Image>
+            </div>
+            <div className={styles.marg}>
+              <p className={styles.reason1}>
+                All in One Accounting Firm Management Solution
+              </p>
+              <p className={styles.txt}>
+                Manage leads, clients, taxes, payments, and team tasks
+                effortlessly—all from one central platform
+              </p>
+            </div>
           </div>
-          <div className={styles.marg}>
-            <p className={styles.reason1}>All in One Accounting Firm Management Solution 
-            </p>
-            <p className={styles.txt}>
-            Manage leads, clients, taxes, payments, and team tasks effortlessly—all from one central platform
-            </p>
+
+          <div className={styles.box}>
+            <div className={styles.center1}>
+              <Image className={styles.size} src={pic11} alt=""></Image>
+            </div>
+            <div className={styles.marg}>
+              <p className={styles.reason1}>
+                All in One Accounting Firm Management Solution
+              </p>
+              <p className={styles.txt}>
+                Manage leads, clients, taxes, payments, and team tasks
+                effortlessly—all from one central platform
+              </p>
+            </div>
           </div>
-        </div>
 
-
-        <div className={styles.box}>
-          <div className={styles.center1}>
-            <Image className={styles.size} src={pic11} alt=""></Image>
-
-          </div>
-          <div className={styles.marg}>
-            <p className={styles.reason1}>All in One Accounting Firm Management Solution 
-            </p>
-            <p className={styles.txt}>
-            Manage leads, clients, taxes, payments, and team tasks effortlessly—all from one central platform
-            </p>
-          </div>
-        </div>
-
-
-
-        <div className={styles.box}>
-          <div className={styles.center1}>
-            <Image className={styles.size} src={frame22} alt=""></Image>
-
-          </div>
-          <div className={styles.marg}>
-            <p className={styles.reason1}>All in One Accounting Firm Management Solution 
-            </p>
-            <p className={styles.txt}>
-            Manage leads, clients, taxes, payments, and team tasks effortlessly—all from one central platform
-            </p>
+          <div className={styles.box}>
+            <div className={styles.center1}>
+              <Image className={styles.size} src={frame22} alt=""></Image>
+            </div>
+            <div className={styles.marg}>
+              <p className={styles.reason1}>
+                All in One Accounting Firm Management Solution
+              </p>
+              <p className={styles.txt}>
+                Manage leads, clients, taxes, payments, and team tasks
+                effortlessly—all from one central platform
+              </p>
+            </div>
           </div>
         </div>
-
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
       </div>
 
-
-
-
-<div className={styles.foot}>
-  <div className={styles.center11}>
-    <p className={styles.txts}>Everything Your Accounting Firm Needs in One Powerful Platform</p>
-    <p className={styles.txtes}>Take control of your firm’s growth with Valix. From generating leads to managing clients, tracking performance, and streamlining payments—everything you need is just a click away. Start simplifying your operations today!</p>
-  </div>
-  <div className={styles.mix}>
-  <input className={styles.input} placeholder="Your Business Email "/>
-  <button type="submit" className={styles.submit}>Submit</button>
-  </div>
-
-
-</div>
+      <div className={styles.foot}>
+        <div className={styles.center11}>
+          <p className={styles.txts}>
+            Everything Your Accounting Firm Needs in One Powerful Platform
+          </p>
+          <p className={styles.txtes}>
+            Take control of your firm’s growth with Valix. From generating leads
+            to managing clients, tracking performance, and streamlining
+            payments—everything you need is just a click away. Start simplifying
+            your operations today!
+          </p>
+        </div>
+        <div className={styles.mix}>
+          <input className={styles.input} placeholder="Your Business Email " />
+          <button type="submit" className={styles.submit}>
+            Submit
+          </button>
+        </div>
+      </div>
 
       <div>
         <Footer />

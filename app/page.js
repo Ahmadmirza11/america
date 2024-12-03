@@ -19,6 +19,10 @@ import team from "../public/team1.png";
 import mobile from "../public/Group3.png";
 import download from "../public/AppStore.png";
 import download2 from "../public/GooglePlay.png";
+import frame from "../public/Frame20.png";
+import frame22 from "../public/Frame22.png";
+import pic11 from "../public/contant1.png";
+
 
 const Page = () => {
   return (
@@ -243,6 +247,77 @@ const Page = () => {
           </div>
         </div>
       </div>
+
+
+
+      <div className={styles.platform}>
+        <div className={styles.center}>
+          <p className={styles.reason}>
+            Reason to prefer to Choice our platform
+          </p>
+        </div>
+
+        <div className={styles.wrap}>
+          <div className={styles.box}>
+            <div className={styles.center1}>
+              <Image className={styles.size1} src={frame} alt=""></Image>
+            </div>
+            <div className={styles.marg}>
+              <p className={styles.reason1}>
+                All in One Accounting Firm Management Solution
+              </p>
+              <p className={styles.txt}>
+                Manage leads, clients, taxes, payments, and team tasks
+                effortlessly—all from one central platform
+              </p>
+            </div>
+          </div>
+
+          <div className={styles.box}>
+            <div className={styles.center1}>
+              <Image className={styles.size1} src={pic11} alt=""></Image>
+            </div>
+            <div className={styles.marg}>
+              <p className={styles.reason1}>
+                All in One Accounting Firm Management Solution
+              </p>
+              <p className={styles.txt}>
+                Manage leads, clients, taxes, payments, and team tasks
+                effortlessly—all from one central platform
+              </p>
+            </div>
+          </div>
+
+          <div className={styles.box}>
+            <div className={styles.center1}>
+              <Image className={styles.size1} src={frame22} alt=""></Image>
+            </div>
+            <div className={styles.marg}>
+              <p className={styles.reason1}>
+                All in One Accounting Firm Management Solution
+              </p>
+              <p className={styles.txt}>
+                Manage leads, clients, taxes, payments, and team tasks
+                effortlessly—all from one central platform
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       <div className={styles.mobile}>
         <div className={styles.mobile1}>

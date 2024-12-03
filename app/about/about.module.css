@@ -163,6 +163,12 @@
 .txt{
   font-size: 18px;
 }
+.txt6{
+  font-size: larger;
+  text-align: center;
+  padding: 33px;
+  font-weight: bold;
+}
 .first{
   width: 90%;
   height: auto;
